@@ -1,5 +1,6 @@
 "use client";
 
+import AboutSection from "@/components/home/about-section";
 import HeroSection from "@/components/home/hero-section";
 import ProjectModal from "@/components/project/project-modal";
 import { ProjectModalContext } from "@/types";
@@ -24,6 +25,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#0a0a0a] text-[#111113] flex flex-col">
       <main className="grow">
         <HeroSection onOpenProjectModal={() => handleOpenModal()} />
+        <AboutSection onOpenProjectModal={() => handleOpenModal()} />
       </main>
       <ProjectModal
         isOpen={isModalOpen}
