@@ -24,7 +24,7 @@ export const projectsData: ProjectItem[] = [
     outcome: "+164% Residential Inquiries in 90 Days",
     description:
       "Editorial portfolio and specification archive for a Pacific Northwest residential practice, built with instant project filtering and high-resolution plate viewing.",
-    image: "/images/case_aura_architecture_1795217712805.jpg'",
+    image: "/images/case_aura_architecture_1795217712805.jpg",
     deliverables: ["Design System", "Webflow CMS", "Editorial Art Direction"],
     tabSurface: "#272624",
   },

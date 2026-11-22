@@ -2,6 +2,7 @@
 
 import AboutSection from "@/components/home/about-section";
 import HeroSection from "@/components/home/hero-section";
+import WorkSection from "@/components/home/work-section";
 import ProjectModal from "@/components/project/project-modal";
 import { ProjectModalContext } from "@/types";
 import { useState } from "react";
@@ -26,6 +27,7 @@ export default function Home() {
       <main className="grow">
         <HeroSection onOpenProjectModal={() => handleOpenModal()} />
         <AboutSection onOpenProjectModal={() => handleOpenModal()} />
+        <WorkSection onOpenProjectModal={handleOpenModal} />
       </main>
       <ProjectModal
         isOpen={isModalOpen}
