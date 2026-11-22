@@ -14,8 +14,8 @@ const SERVICES_LIST = [
   "Website Design",
   "Framer / Webflow",
   "Next.js Engineering",
-  "Workflow Automation",
   "Brand System",
+  "Workflow Automation",
   "SEO & Performance",
 ];
 
