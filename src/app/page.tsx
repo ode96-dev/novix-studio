@@ -2,6 +2,7 @@
 
 import AboutSection from "@/components/home/about-section";
 import HeroSection from "@/components/home/hero-section";
+import ServicesSection from "@/components/home/services-section";
 import WorkSection from "@/components/home/work-section";
 import ProjectModal from "@/components/project/project-modal";
 import { ProjectModalContext } from "@/types";
@@ -28,6 +29,7 @@ export default function Home() {
         <HeroSection onOpenProjectModal={() => handleOpenModal()} />
         <AboutSection onOpenProjectModal={() => handleOpenModal()} />
         <WorkSection onOpenProjectModal={handleOpenModal} />
+        <ServicesSection onOpenProjectModal={handleOpenModal} />
       </main>
       <ProjectModal
         isOpen={isModalOpen}
