@@ -5,6 +5,7 @@ import HeroSection from "@/components/home/hero-section";
 import PricingSection from "@/components/home/pricing-section";
 import ProcessSection from "@/components/home/process-section";
 import ServicesSection from "@/components/home/services-section";
+import TestimonialsSection from "@/components/home/testimonials-section";
 import WhyChooseUsSection from "@/components/home/why-choose-us-section";
 import WorkSection from "@/components/home/work-section";
 import ProjectModal from "@/components/project/project-modal";
@@ -36,6 +37,7 @@ export default function Home() {
         <ProcessSection onOpenProjectModal={() => handleOpenModal()} />
         <WhyChooseUsSection onOpenProjectModal={() => handleOpenModal()} />
         <PricingSection onOpenProjectModal={handleOpenModal} />
+        <TestimonialsSection />
       </main>
       <ProjectModal
         isOpen={isModalOpen}
