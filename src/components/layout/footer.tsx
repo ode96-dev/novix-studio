@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Copy, Check } from "lucide-react";
 import { LegalModal } from "../legal/legal-modal";
 import ResilientImage from "../images/resilient-image";
+import Link from "next/link";
 
 const NAV_LINKS = [
   { name: "Home", href: "#" },
@@ -60,12 +61,12 @@ const Footer = () => {
                 </p>
 
                 <div className="flex flex-wrap items-center gap-3">
-                  <a
+                  <Link
                     href="mailto:hello@novixstudio.com"
                     className="font-display text-xl sm:text-2xl font-bold text-[#111113] hover:text-[#d92d20] transition-colors focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#ff3b30] rounded-sm"
                   >
                     hello@novixstudio.com
-                  </a>
+                  </Link>
 
                   <button
                     type="button"
@@ -104,12 +105,12 @@ const Footer = () => {
                 <ul className="space-y-2.5">
                   {NAV_LINKS.map((link) => (
                     <li key={link.name}>
-                      <a
+                      <Link
                         href={link.href}
                         className="inline-block py-1 text-sm sm:text-base font-medium text-[#111113] hover:text-[#d92d20] transition-colors"
                       >
                         {link.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
