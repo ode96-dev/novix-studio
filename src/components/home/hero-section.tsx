@@ -22,10 +22,6 @@ const HeroSection = ({ onOpenProjectModal }: HeroSectionProps) => {
       className="bg-[#0a0a0a] text-white pt-28 pb-16 lg:pt-36 lg:pb-24 border-b border-white/10"
     >
       <div className="max-w-300 mx-auto px-4 sm:px-6 lg:px-8">
-        <p className="text-[13px] font-medium tracking-[0.01em] text-white/60 mb-6">
-          Independent Design &amp; Web Engineering Studio
-        </p>
-
         <h1
           id="hero-main-title"
           className="font-display text-[clamp(3.25rem,9vw,7.75rem)] leading-[0.9] font-bold tracking-[-0.04em] text-white mb-12 lg:mb-16 text-balance"
