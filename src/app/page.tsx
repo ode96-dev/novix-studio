@@ -1,6 +1,7 @@
 "use client";
 
 import AboutSection from "@/components/home/about-section";
+import FAQSection from "@/components/home/faq-section";
 import HeroSection from "@/components/home/hero-section";
 import PricingSection from "@/components/home/pricing-section";
 import ProcessSection from "@/components/home/process-section";
@@ -38,6 +39,7 @@ export default function Home() {
         <WhyChooseUsSection onOpenProjectModal={() => handleOpenModal()} />
         <PricingSection onOpenProjectModal={handleOpenModal} />
         <TestimonialsSection />
+        <FAQSection />
       </main>
       <ProjectModal
         isOpen={isModalOpen}
